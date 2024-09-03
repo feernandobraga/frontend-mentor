@@ -16,11 +16,11 @@ function QRCodeApp() {
         {/* <Image src={imageQrCode} alt="QR Code" /> */}
         <img src='/image-qr-code.png' alt="QR Code" className='rounded-2xl' />
 
-        <p className='font-bold text-center px-8 text-slate-900 leading-5'>
+        <p className='font-bold text-center text-slate-900 leading-6 text-xl px-5 tracking-normal'>
           Improve your front-end skills by building projects
         </p>
 
-        <p className='text-[15px] font-normal font-sans text-slate-500 px-6 text-center mb-4' >
+        <p className='text-[15px] font-normal font-sans text-slate-500 px-6 text-center mb-4 tracking-tight' >
           Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
         </p>
 

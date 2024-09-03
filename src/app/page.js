@@ -9,6 +9,9 @@ export default function Home() {
         <li>
           <Link href={'./qr-code/'}>QR code component</Link>
         </li>
+        <li>
+          <Link href={'./blog-preview-card/'}>Blog preview card</Link>
+        </li>
       </ul>
     </div>
   );

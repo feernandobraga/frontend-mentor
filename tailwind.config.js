@@ -9,9 +9,11 @@ module.exports = {
     extend: {
       colors: {
         'qr-code-challenge-bg': '#D5E1EF',
+        'blog-preview-card-yellow': '#f4d04e'
       },
       fontFamily: {
         'qr-code-challenge': ['Outfit', 'sans-serif'],
+        'blog-preview-card': ['var(--font-figtree)']
       }
     },
   },

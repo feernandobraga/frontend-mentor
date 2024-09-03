@@ -1,7 +1,12 @@
-import { Inter } from "next/font/google";
+import { Inter, Figtree } from "next/font/google";
+
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
+const figTree = Figtree({
+  subsets: ["latin"],
+  variable: '--font-figtree'
+});
 
 export const metadata = {
   title: "Frontend Mentor",
@@ -11,7 +16,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${inter.className} ${figTree.className}`}>{children}</body>
     </html>
   );
 }
