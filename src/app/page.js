@@ -12,6 +12,9 @@ export default function Home() {
         <li>
           <Link href={'./blog-preview-card/'}>Blog preview card</Link>
         </li>
+        <li>
+          <Link href={'./social-link-profiles/'}>Social link profiles</Link>
+        </li>
       </ul>
     </div>
   );
