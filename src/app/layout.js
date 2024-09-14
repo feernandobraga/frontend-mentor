@@ -1,4 +1,4 @@
-import { Inter, Figtree } from "next/font/google";
+import { Inter, Figtree, Young_Serif, Outfit } from "next/font/google";
 
 import "./globals.css";
 
@@ -8,6 +8,18 @@ const figTree = Figtree({
   variable: '--font-figtree'
 });
 
+export const youngSerif = Young_Serif({
+  subsets: ["latin"],
+  variable: '--font-young-serif',
+  weight: ['400']
+});
+
+export const outfit = Outfit({
+  subsets: ["latin"],
+  variable: '--font-outfit'
+});
+
+
 export const metadata = {
   title: "Frontend Mentor",
   description: "A portfolio of Frontend Mentor challenges",
@@ -16,7 +28,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} ${figTree.className}`}>{children}</body>
+      <body className={`${inter.className} ${youngSerif.variable} ${outfit.variable} antialiased`}>{children}</body>
     </html>
   );
 }

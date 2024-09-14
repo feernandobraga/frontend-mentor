@@ -15,6 +15,9 @@ export default function Home() {
         <li>
           <Link href={'./social-link-profiles/'}>Social link profiles</Link>
         </li>
+        <li>
+          <Link href={'./recipe-page/'}>Recipe Page</Link>
+        </li>
       </ul>
     </div>
   );

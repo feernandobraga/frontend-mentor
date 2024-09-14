@@ -3,6 +3,7 @@ import React from 'react'
 import Image from 'next/image'
 import mobileDesign from './starter/design/mobile-design.jpg'
 import avatarJessica from './starter/assets/images/avatar-jessica.jpeg'
+import { figTree } from '@/app/utils/fonts'
 
 function SocialLinkProfilesApp() {
 
@@ -10,7 +11,7 @@ function SocialLinkProfilesApp() {
   const [opacity, setOpacity] = React.useState(0.5)
 
   return (
-    <main className='bg-social-link-profiles-grey-900 h-dvh grid grid-cols-1 grid-rows-[min-content_1fr]'>
+    <main className={`bg-social-link-profiles-grey-900 h-dvh grid grid-cols-1 grid-rows-[min-content_1fr] ${figTree.className}`} >
 
       <div className='text-white text-center'>
         <button
